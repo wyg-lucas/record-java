@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="138025f2-b683-4c0b-9082-6787fa234687" name="Changes" comment="" />
+    <list default="true" id="b117b990-556e-4b8e-8ae0-9a0a7f490922" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucas/concurrent/PhaserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucas/concurrent/StampedLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucas/concurrent/TestJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucas/concurrent/volatileDemo/TestVolatile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucas/guavaLearning/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucas/jvm/gc/StopTheWorldDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucas/jvm/string/TestString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucas/lock/TestAtomInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucas/lock/TestMultiThreadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lucas/lock/TestAtomInteger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lucas/lock/TestMultiThreadLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lucas/jvm/string/TestStringTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lucas/jvm/string/TestStringTable.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,21 +27,27 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="package-info" />
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="22Y6DDNU2wGnVJ8Fkd1cPB4Gf5P" />
+  <component name="ProjectId" id="23tjMRl0eY9HyudHe6qN86ykLJw" />
   <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -37,18 +57,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="Application.DeadLock">
-    <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lucas.concurrent.DeadLock" />
-=======
-  <component name="RunManager" selected="Application.TestStringTable">
-    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lucas.leetcode.lru.LRUCache" />
->>>>>>> fac96ac8e1f8e22988b2bf6cded649b7f33a7e8f
+  <component name="RunManager" selected="Application.PhaserTest">
+    <configuration name="PhaserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lucas.concurrent.PhaserTest" />
       <module name="record-java" />
       <extension name="coverage">
         <pattern>
@@ -60,21 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapAbout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lucas.sourcecode.HashMapAbout" />
-      <module name="record-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lucas.sourcecode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lucas.concurrent.Person" />
+    <configuration name="StampedLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lucas.concurrent.StampedLockDemo" />
       <module name="record-java" />
       <extension name="coverage">
         <pattern>
@@ -86,8 +86,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Son" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lucas.concurrent.Son" />
+    <configuration name="StopTheWorldDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lucas.jvm.gc.StopTheWorldDemo" />
+      <module name="record-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lucas.jvm.gc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lucas.concurrent.TestJoin" />
       <module name="record-java" />
       <extension name="coverage">
         <pattern>
@@ -99,21 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lucas.concurrent.TestDemo" />
-      <module name="record-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lucas.concurrent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestStringTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lucas.jvm.string.TestStringTable" />
+    <configuration name="TestString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lucas.jvm.string.TestString" />
       <module name="record-java" />
       <extension name="coverage">
         <pattern>
@@ -127,29 +127,28 @@
     </configuration>
     <recent_temporary>
       <list>
-<<<<<<< HEAD
-        <item itemvalue="Application.DeadLock" />
-        <item itemvalue="Application.HashMapAbout" />
-        <item itemvalue="Application.TestDemo" />
-        <item itemvalue="Application.Son" />
-        <item itemvalue="Application.Person" />
-=======
-        <item itemvalue="Application.TestStringTable" />
-        <item itemvalue="Application.LRUCache" />
->>>>>>> fac96ac8e1f8e22988b2bf6cded649b7f33a7e8f
+        <item itemvalue="Application.PhaserTest" />
+        <item itemvalue="Application.StampedLockDemo" />
+        <item itemvalue="Application.TestJoin" />
+        <item itemvalue="Application.StopTheWorldDemo" />
+        <item itemvalue="Application.TestString" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="138025f2-b683-4c0b-9082-6787fa234687" name="Changes" comment="" />
-      <created>1640002054057</created>
+      <changelist id="b117b990-556e-4b8e-8ae0-9a0a7f490922" name="Changes" comment="" />
+      <created>1642560231431</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1640002054057</updated>
-      <workItem from="1640002055511" duration="9178000" />
-      <workItem from="1640610590008" duration="978000" />
+      <updated>1642560231431</updated>
+      <workItem from="1642560235563" duration="2577000" />
+      <workItem from="1642604547942" duration="2010000" />
+      <workItem from="1643162241549" duration="1127000" />
+      <workItem from="1643296405801" duration="1479000" />
+      <workItem from="1643548269158" duration="2823000" />
+      <workItem from="1643683497519" duration="6035000" />
     </task>
     <servers />
   </component>
@@ -166,15 +165,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
