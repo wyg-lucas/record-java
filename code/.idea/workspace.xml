@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b117b990-556e-4b8e-8ae0-9a0a7f490922" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucas/concurrent/PhaserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucas/concurrent/StampedLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucas/concurrent/TestJoin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucas/concurrent/volatileDemo/TestVolatile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucas/guavaLearning/TestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucas/jvm/gc/StopTheWorldDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucas/jvm/string/TestString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucas/lock/TestAtomInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucas/lock/TestMultiThreadLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lucas/lock/TestAtomInteger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lucas/lock/TestMultiThreadLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lucas/jvm/string/TestStringTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lucas/jvm/string/TestStringTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucas/concurrent/TestSpinLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucas/leetcode/solution/Solution452.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucas/leetcode/solution/Solution51.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucas/leetcode/solution/SolutionMianshi17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lucas/concurrent/TestSpinLock.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +49,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.PhaserTest">
+  <component name="RunManager" selected="Application.Solution51">
     <configuration name="PhaserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lucas.concurrent.PhaserTest" />
       <module name="record-java" />
@@ -73,51 +66,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StampedLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lucas.concurrent.StampedLockDemo" />
+    <configuration name="Solution452" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lucas.leetcode.solution.Solution452" />
+      <module name="record-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lucas.leetcode.solution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution51" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lucas.leetcode.solution.Solution51" />
+      <module name="record-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lucas.leetcode.solution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionMianshi17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lucas.leetcode.solution.SolutionMianshi17" />
+      <module name="record-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lucas.leetcode.solution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpinLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lucas.concurrent.TestSpinLock" />
       <module name="record-java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lucas.concurrent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StopTheWorldDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lucas.jvm.gc.StopTheWorldDemo" />
-      <module name="record-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lucas.jvm.gc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lucas.concurrent.TestJoin" />
-      <module name="record-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lucas.concurrent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lucas.jvm.string.TestString" />
-      <module name="record-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lucas.jvm.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution51" />
+        <item itemvalue="Application.Solution452" />
+        <item itemvalue="Application.SolutionMianshi17" />
+        <item itemvalue="Application.TestSpinLock" />
         <item itemvalue="Application.PhaserTest" />
-        <item itemvalue="Application.StampedLockDemo" />
-        <item itemvalue="Application.TestJoin" />
-        <item itemvalue="Application.StopTheWorldDemo" />
-        <item itemvalue="Application.TestString" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +141,15 @@
       <workItem from="1643162241549" duration="1127000" />
       <workItem from="1643296405801" duration="1479000" />
       <workItem from="1643548269158" duration="2823000" />
-      <workItem from="1643683497519" duration="6035000" />
+      <workItem from="1643683497519" duration="9298000" />
+      <workItem from="1643947636882" duration="7000" />
+      <workItem from="1644029311385" duration="2233000" />
+      <workItem from="1644285036330" duration="1086000" />
+      <workItem from="1644379197034" duration="624000" />
+      <workItem from="1644905729711" duration="956000" />
+      <workItem from="1645065167027" duration="1265000" />
+      <workItem from="1645079565351" duration="3873000" />
+      <workItem from="1645087678873" duration="3540000" />
     </task>
     <servers />
   </component>
